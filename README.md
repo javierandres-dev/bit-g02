@@ -63,12 +63,23 @@ End date: 2023/03/10
       - Author
 #### Resources
 - [Welcome to the terminal](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line)
-- [Git](https://git-scm.com/https://git-scm.com/)
+- [Git](https://git-scm.com/)
 - [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
 - [About READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
 ### Day 2
 * HTML
   - 
+* Task
+  * Create new repo:
+    * Name: bit01html
+      * index.html
+        - Basic
+        - Structure
+        - Semantic
+        * Content in spanish
+          - Your self
+    - README file
+#### Resources
 ### Directories
 - :open_file_folder: 
 ---
