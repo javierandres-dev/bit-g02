@@ -27,6 +27,7 @@ End date: 2023/03/10
 - [Day 0](day0.md)
 - [Day 1](day1.md)
 - [Day 2](day2.md)
+- [Day 3](day3.md)
 ## Directories
 - :open_file_folder: 01html
 ---
