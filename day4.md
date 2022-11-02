@@ -18,14 +18,14 @@
 - [About UTF](https://unicode.org/faq/utf_bom.html)
 - [About ASCII](https://www.asciitable.com/)
 ## Task
-1. Create new repo:
-  * Name: bit02html
-    - README file
-    * html files
-      - Basic structure
-      - Structure tags
-      - Semantic tags
-      * Content in spanish
-        - Website about a recipe
-				- Navigation between internal pages
-				- Recipe image
+1. Create new repo
+- Name: bit02html
+- README file
+- Website about a recipe
+* html files
+  - Basic structure
+  - Structure tags
+  - Semantic tags
+  * Content in spanish
+    - Navigation between internal pages
+    - Recipe image
