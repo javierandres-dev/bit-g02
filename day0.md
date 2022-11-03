@@ -4,14 +4,14 @@
   - Client
   - Server
 - Search engine
+- Web browser
+- Web page
+- Website
+- Web application
 * Web development
   - Frontend developmment
   - Backend developmment
   - Full stack development
-- Web page
-- Web site
-- Web application
-- Web browser
 - Code editor
 - VCH account
 ## Resources
