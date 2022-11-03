@@ -12,7 +12,7 @@ End date: 2023/03/10
 - GUI
 - VCS
 - VCH
-- Code Editor
+- Tools
 - HTML
 - CSS
 - UI
