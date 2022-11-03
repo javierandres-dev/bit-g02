@@ -15,10 +15,12 @@ End date: 2023/03/10
 - Code Editor
 - HTML
 - CSS
-- JS
 - UI
 - UX
+- JS
 - React
+- JSON
+- API
 ## Initial Requirements
 - Computer
 - OS (Operating System)
@@ -29,6 +31,7 @@ End date: 2023/03/10
 - [Day 2](day2.md)
 - [Day 3](day3.md)
 - [Day 4](day4.md)
+- [Day 5](day5.md)
 ## Directories
 - :open_file_folder: 01html
 ---
