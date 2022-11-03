@@ -1,0 +1,5 @@
+@import url(otro.css);
+
+div {
+  border: 4px solid blue;
+}
