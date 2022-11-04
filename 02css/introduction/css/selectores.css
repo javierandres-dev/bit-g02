@@ -1,0 +1,27 @@
+/* Selectores */
+* {
+  border: 2px solid black;
+}
+
+html {
+  border: 2px solid blue;
+}
+
+body {
+  border: 2px solid pink;
+}
+
+.b-green {
+  border: 2px solid green;
+}
+.b-fuchsia {
+  border: 2px solid fuchsia;
+}
+.txt-green {
+  color: green;
+  font-size: 32px;
+}
+
+#unique {
+  border: 2px solid red;
+}
