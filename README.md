@@ -36,5 +36,7 @@ End date: 2023/03/10
 - [Day 6](day6.md)
 ---
 ## Software Developer
-<a href="https://javierandresgp.com" target="_blank" rel="noopener noreferrer">Javier Andrés Garzón Patarroyo</a>
-<p style="text-align: center;"><small>:copyright: 2022</small></p>
+[Javier Andrés Garzón Patarroyo](https://javierandresgp.com)
+| |
+| :-: |
+| :copyright: 2022 |
