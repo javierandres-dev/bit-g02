@@ -54,11 +54,11 @@
 - [HTML: HyperText Markup Language](https://developer.mozilla.org/en-US/docs/Web/HTML)
 ## Task
 1. Create new repo
-- Name: bit01html
-- README file with basic content (title, description, author)
-* index.html file
-	- Basic structure
-	- Structure tags
-	- Semantic tags
-	* Content in spanish
-		- About your self
+	- Name: bit01html
+	- README file with basic content (title, description, author)
+	* index.html file
+		- Basic structure
+		- Structure tags
+		- Semantic tags
+		* Content in spanish
+			- About your self

@@ -19,13 +19,13 @@
 - [About ASCII](https://www.asciitable.com/)
 ## Task
 1. Create new repo
-- Name: bit02html
-- README file
-- Website about a recipe
-* html files
-  - Basic structure
-  - Structure tags
-  - Semantic tags
-  * Content in spanish
-    - Navigation between internal pages
-    - Recipe image
+  - Name: bit02html
+  - README file
+  - Website about a recipe
+  * html files
+    - Basic structure
+    - Structure tags
+    - Semantic tags
+    * Content in spanish
+      - Navigation between internal pages
+      - Recipe image
