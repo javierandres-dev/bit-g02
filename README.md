@@ -37,6 +37,4 @@ End date: 2023/03/10
 ---
 ## Software Developer
 [Javier Andrés Garzón Patarroyo](https://javierandresgp.com)
-| |
-| :-: |
-| :copyright: 2022 |
+:copyright: 2022
