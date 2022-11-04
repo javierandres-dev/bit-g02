@@ -1,7 +1,5 @@
 # :octocat: bit-course-frontend_01
 ---
-:copyright: 2022
-## [Bogotá Institute of Technology](https://bit.institute/)
 Course name: Bootcamp desarrollo web frontend  
 Start date: 2022/10/25  
 End date: 2023/03/10
@@ -25,6 +23,9 @@ End date: 2023/03/10
 - Computer
 - OS (Operating System)
 ---
+## Directories
+- :open_file_folder: 01html
+- :open_file_folder: 02css
 ## Files
 - [Day 0](day0.md)
 - [Day 1](day1.md)
@@ -32,8 +33,8 @@ End date: 2023/03/10
 - [Day 3](day3.md)
 - [Day 4](day4.md)
 - [Day 5](day5.md)
-## Directories
-- :open_file_folder: 01html
+- [Day 6](day6.md)
 ---
 ## Software Developer
-[Javier Andrés Garzón Patarroyo](https://javierandresgp.com)
+<a href="https://javierandresgp.com" target="_blank" rel="noopener noreferrer">Javier Andrés Garzón Patarroyo</a>
+<p style="text-align: center;"><small>:copyright: 2022</small></p>
