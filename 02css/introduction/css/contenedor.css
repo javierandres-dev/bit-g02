@@ -1,0 +1,38 @@
+/* Contenedor */
+.div-padre {
+  background-color: yellow;
+  border: 4px solid black;
+  color: red;
+}
+
+.span1 {
+  display: block;
+}
+
+.div1,
+.span1 {
+  width: 50px;
+  height: 50px;
+  border-width: 2px;
+  border-style: dotted;
+  border-color: blue;
+  margin-top: 8px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  margin-left: 8px;
+}
+
+.div2 {
+  display: inline;
+  width: 50px;
+  height: 50px;
+  border: 2px double green;
+  margin: 8px;
+}
+
+.span2 {
+  display: inline-block;
+  border: 4px solid fuchsia;
+  padding: 8px;
+  margin: 8px;
+}
