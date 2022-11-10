@@ -25,4 +25,4 @@
 - [Inheritance and Overriding](https://developer.mozilla.org/en-US/docs/Web/CSS/inheritance)
 - [Bootstrap](https://getbootstrap.com/)
 ## Task
-1. Practice
+1. Practice, practice
