@@ -35,6 +35,7 @@ End date: 2023/03/10
 - [Day 5](day5.md)
 - [Day 6](day6.md)
 - [Day 7](day7.md)
+- [Day 8](day8.md)
 ---
 ## Software Developer
 [Javier Andrés Garzón Patarroyo](https://javierandresgp.com) :copyright: 2022
