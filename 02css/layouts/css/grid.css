@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 1024px;
+  height: 512px;
+  margin: 16px auto;
+  background-color: lightgray;
+  border: 2px solid black;
+  border-radius: 16px;
+  display: grid;
+  grid-template-columns: 255px 255px 255px 255px;
+  grid-template-rows: auto;
+  grid-template-areas:
+    'header header header header'
+    'nav nav nav nav'
+    'main main main aside'
+    'footer footer footer footer';
+}
+header,
+nav,
+main,
+aside,
+footer {
+  background-color: grey;
+  color: white;
+  border: 2px solid white;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  grid-area: header;
+  height: 88px;
+}
+nav {
+  grid-area: nav;
+  height: 48px;
+}
+main {
+  grid-area: main;
+  height: 340px;
+}
+aside {
+  grid-area: aside;
+  height: 340px;
+}
+footer {
+  grid-area: footer;
+  height: 32px;
+}

@@ -1,0 +1,43 @@
+body {
+  width: 1024px;
+  height: 512px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: lightgray;
+  border: 2px solid black;
+}
+table {
+  width: 100%;
+}
+.header {
+  height: 88px;
+  background-color: grey;
+  color: white;
+  text-align: center;
+}
+.nav {
+  height: 48px;
+  background-color: grey;
+  color: white;
+  text-align: center;
+}
+.main {
+  width: 800px;
+  height: 320px;
+  background-color: grey;
+  color: white;
+  text-align: center;
+}
+.aside {
+  width: 220px;
+  height: 320px;
+  background-color: grey;
+  color: white;
+  text-align: center;
+}
+.footer {
+  height: 32px;
+  background-color: grey;
+  color: white;
+  text-align: center;
+}

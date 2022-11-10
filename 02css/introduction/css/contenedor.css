@@ -36,3 +36,23 @@
   padding: 8px;
   margin: 8px;
 }
+
+.img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.fig-img {
+  background-color: yellow;
+  border: 2px solid blue;
+  width: 256px;
+}
+button {
+  background-color: blue;
+  color: white;
+}
+button:hover {
+  background-color: green;
+  color: blue;
+}
