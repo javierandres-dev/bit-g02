@@ -1,0 +1,42 @@
+html {
+  font-size: 10px;
+}
+body {
+  font-size: 16px;
+}
+.rem {
+  font-size: 1rem;
+}
+.em {
+  font-size: 1em;
+}
+.porc {
+  font-size: 100%;
+}
+.div-padre {
+  width: 256px;
+  height: 256px;
+  border: 4px solid blue;
+}
+.div-hijo {
+  width: 50%;
+  height: 50%;
+  background-color: purple;
+}
+.div-padre {
+  width: 256px;
+  height: 256px;
+  border: 4px solid blue;
+}
+.div-hijo {
+  width: 50%;
+  height: 50%;
+  background-color: purple;
+}
+.div-padre2 {
+}
+.div-hijo2 {
+  width: 50%;
+  height: 50%;
+  background-color: purple;
+}
