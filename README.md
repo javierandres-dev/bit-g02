@@ -23,20 +23,21 @@ End date: 2023/03/10
 - Computer
 - OS (Operating System)
 ---
-## Directories
+## Documentation
+### Code sample
 - :open_file_folder: 01html
 - :open_file_folder: 02css
-## Files
-- [Day 0](day0.md)
-- [Day 1](day1.md)
-- [Day 2](day2.md)
-- [Day 3](day3.md)
-- [Day 4](day4.md)
-- [Day 5](day5.md)
-- [Day 6](day6.md)
-- [Day 7](day7.md)
-- [Day 8](day8.md)
-- [Day 9](day9.md)
+### Guides
+- [Guide, day 0](day0.md)
+- [Guide, day 1](day1.md)
+- [Guide, day 2](day2.md)
+- [Guide, day 3](day3.md)
+- [Guide, day 4](day4.md)
+- [Guide, day 5](day5.md)
+- [Guide, day 6](day6.md)
+- [Guide, day 7](day7.md)
+- [Guide, day 8](day8.md)
+- [Guide, day 9](day9.md)
 ---
 ## Software Developer
 [Javier Andrés Garzón Patarroyo](https://javierandresgp.com) :copyright: 2022
