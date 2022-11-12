@@ -1,0 +1,45 @@
+.box {
+  width: 100vw;
+  height: 100vh;
+  color: #fff;
+}
+.mobile {
+  background-color: green;
+  display: block;
+}
+.tablet {
+  background-color: blue;
+  display: none;
+}
+.computer {
+  background-color: purple;
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .mobile {
+    background-color: green;
+    display: none;
+  }
+  .tablet {
+    background-color: blue;
+    display: block;
+  }
+  .computer {
+    background-color: purple;
+    display: none;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .mobile {
+    background-color: green;
+    display: none;
+  }
+  .tablet {
+    background-color: blue;
+    display: none;
+  }
+  .computer {
+    background-color: purple;
+    display: block;
+  }
+}

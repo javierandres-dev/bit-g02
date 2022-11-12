@@ -1,0 +1,38 @@
+.box {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+}
+.box1 {
+  background-color: blue;
+  background-color: #852999;
+  background-color: rgb(108, 64, 255);
+  background-color: rgba(108, 64, 255, 0.1);
+}
+.box2 {
+  background-color: green;
+  background-color: #3a8891;
+  background-color: rgb(255, 64, 128);
+  background-color: hsl(254, 100%, 63%);
+}
+.box3 {
+  background-color: purple;
+  background-color: #e14d2a;
+  background-color: rgb(255, 128, 64);
+}
+.hsl {
+  width: 100px;
+  height: 100px;
+  background: conic-gradient(
+    hsl(360, 100%, 50%),
+    hsl(315, 100%, 50%),
+    hsl(270, 100%, 50%),
+    hsl(225, 100%, 50%),
+    hsl(180, 100%, 50%),
+    hsl(135, 100%, 50%),
+    hsl(90, 100%, 50%),
+    hsl(45, 100%, 50%),
+    hsl(0, 100%, 50%)
+  );
+  clip-path: circle(closest-side);
+}
