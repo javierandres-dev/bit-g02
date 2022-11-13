@@ -21,4 +21,4 @@
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [GitHub](https://github.com/)
 ## Task
-1. Create GitHub account
+- Create GitHub account

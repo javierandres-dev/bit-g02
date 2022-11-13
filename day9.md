@@ -15,4 +15,4 @@
 - [Background](https://developer.mozilla.org/en-US/docs/Web/CSS/background)
 - [SVG: Scalable Vector Graphics](https://developer.mozilla.org/en-US/docs/Web/SVG)
 ## Task
-1. Practice
+- Practice

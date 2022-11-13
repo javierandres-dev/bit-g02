@@ -24,7 +24,7 @@ $ git push
 - [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
 - [About READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
 ## Task
-1. Create first repository
+* Create first repository
   - Name: bit00notes
   * README.md file:
     - Title

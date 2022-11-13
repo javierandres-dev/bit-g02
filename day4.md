@@ -18,8 +18,8 @@
 - [About UTF](https://unicode.org/faq/utf_bom.html)
 - [About ASCII](https://www.asciitable.com/)
 ## Task
-1. Create new repo
-  - Name: bit02html
+* Create new project
+  - Repo name: bit02html
   - README file
   - Website about a recipe
   * html files

@@ -53,8 +53,8 @@
 ## Resources
 - [HTML: HyperText Markup Language](https://developer.mozilla.org/en-US/docs/Web/HTML)
 ## Task
-1. Create new repo
-	- Name: bit01html
+* Create new project
+	- Repo name: bit01html
 	- README file with basic content (title, description, author)
 	* index.html file
 		- Basic structure
