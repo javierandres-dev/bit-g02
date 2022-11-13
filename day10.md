@@ -22,5 +22,3 @@
 1. Create new project
   - Repo name: bit03htmlcss
   - Requirements in the Discord channel
--
--
