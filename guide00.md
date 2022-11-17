@@ -1,4 +1,4 @@
-# Day 0
+# Guide 00
 ## Learning Objectives
 * Internet
   - Client

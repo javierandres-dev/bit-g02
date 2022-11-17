@@ -1,4 +1,4 @@
-# Day 1
+# Guide 01
 ## Learning Objectives
 - CLI (Command Line Interface)
 - GUI (Graphical User Interface)

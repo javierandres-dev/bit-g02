@@ -1,7 +1,7 @@
-# Day 6
+# Guide 06
 ## Learning Objectives
 * CSS (Cascading Style Sheets)
-  - More CSS - Feedback [Day 5](day5.md)
+  - More CSS - Feedback [Guide 05](guide05.md)
   - Box model
   - Selectors
   * Attributes

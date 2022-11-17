@@ -1,7 +1,7 @@
-# Day 3
+# Guide 03
 ## Learning Objectives
 * HTML (HyperText Markup Language)
-	- More HTML - Feedback [Day 2](day2.md)
+	- More HTML - Feedback [Guide 02](guide02.md)
 	* Content
 		- Image
 		* Link

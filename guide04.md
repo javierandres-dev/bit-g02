@@ -1,7 +1,7 @@
-# Day 4
+# Guide 04
 ## Learning Objectives
 * HTML (HyperText Markup Language)
-	- More HTML - Feedback [Day 2](day2.md), [Day 3](day3.md)
+	- More HTML - Feedback [Guide 03](guide03.md)
 - Web page
 - Website
 - Markup validation

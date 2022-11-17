@@ -1,4 +1,4 @@
-# Day 2
+# Guide 02
 ## Learning Objectives
 * HTML (HyperText Markup Language)
   - Syntax

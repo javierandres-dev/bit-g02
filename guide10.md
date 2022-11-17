@@ -1,4 +1,4 @@
-# Day 10
+# Guide 10
 ## Learning Objectives
 - UI (User Interface)
 - UX (User Experience)

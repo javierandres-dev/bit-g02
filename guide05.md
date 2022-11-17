@@ -1,4 +1,4 @@
-# Day 5
+# Guide 05
 ## Learning Objectives
 * CSS (Cascading Style Sheets)
   - Implement

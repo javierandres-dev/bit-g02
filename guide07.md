@@ -1,7 +1,7 @@
-# Day 7
+# Guide 07
 ## Learning Objectives
 * CSS (Cascading Style Sheets)
-  - More CSS - Feedback [Day 6](day6.md)
+  - More CSS - Feedback [Guide 06](guide06.md)
   * Attributes
     - By default
     - Typographic
