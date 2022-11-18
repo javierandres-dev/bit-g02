@@ -1,0 +1,50 @@
+/* body {
+  height: 1000px;
+}
+header {
+  position: fixed;
+  top: 0;
+} */
+.important {
+  color: red !important;
+}
+.padre {
+  border: 2px solid blue;
+  position: relative;
+}
+.hermano,
+.hijo {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  color: white;
+}
+.absolute {
+  background-color: green;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.sticky {
+  background-color: fuchsia;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+.fixed {
+  background-color: salmon;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+p {
+  color: red !important;
+}
+p {
+  background-color: blue;
+  color: white;
+  padding: 16px;
+}
+p {
+  color: yellow;
+}
