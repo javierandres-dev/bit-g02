@@ -15,10 +15,13 @@ End date: 2023/03/10
 - CSS
 - UI
 - UX
+- Framework
+- Bootstrap
 - JS
-- React
 - JSON
 - API
+- Library
+- React
 ## Initial Requirements
 - Computer
 - OS (Operating System)
@@ -40,6 +43,7 @@ End date: 2023/03/10
 - [Guide 09](guide09.md)
 - [Guide 10](guide10.md)
 - [Guide 11](guide11.md)
+- [Guide 12](guide12.md)
 ---
 ## Software Developer
 [Javier Andrés Garzón Patarroyo](https://javierandresgp.com) :copyright: 2022
