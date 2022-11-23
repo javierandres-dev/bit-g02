@@ -8,8 +8,6 @@
   - !important keyword
 - Vanilla or plain code
 - Framework
-* Git
-  - Branches
 ## Resources
 - [Fonts and icons](https://fonts.google.com/)
 - [position property](https://developer.mozilla.org/en-US/docs/Web/CSS/position)
@@ -17,9 +15,6 @@
 - [transition property](https://developer.mozilla.org/en-US/docs/Web/CSS/transition)
 - [!important keyword](https://developer.mozilla.org/en-US/docs/Web/CSS/important)
 - [Bootstrap](https://getbootstrap.com/)
-- [Git](https://git-scm.com/)
-- [Pro Git Book](https://git-scm.com/book/en/v2)
-- [Git Branching - Basic Branching and Merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
 ## Task
 * Create new project
   - Repo name: bit04htmlcss
