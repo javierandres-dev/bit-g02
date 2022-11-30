@@ -9,6 +9,8 @@ líneas
 //console.log('Window Object:', window);
 
 /* Variables */
+let soyVariable = 'soy el valor de la variable';
+
 var nombreVariable1 = 'Hola';
 nombreVariable1 = 'cambio de valor en la variable1';
 //console.log(nombreVariable1);
@@ -52,11 +54,54 @@ tdBoolean = false;
 //console.log(typeof tdBoolean);
 
 /* Interacción */
-let nombreUsuario = prompt('Ingresa tu nombre');
-console.log(nombreUsuario);
-let edadUsuario = prompt('Ingresa tu edad');
-console.log(edadUsuario);
+//let nombreUsuario = prompt('Ingresa tu nombre');
+//console.log(nombreUsuario);
+//let edadUsuario = prompt('Ingresa tu edad');
+//console.log(edadUsuario);
 
 /* Concatenación */
-let nombreYedad = nombreUsuario + ' ' + edadUsuario;
-document.write(nombreYedad);
+//let nombreYedad = nombreUsuario + ' ' + edadUsuario;
+//document.write(nombreYedad);
+
+/* Conversión de tipos */
+//let numero = prompt('ingresa un número');
+//console.log(numero);
+//console.log('antes', typeof numero);
+//numero = Number(numero);
+//console.log('después', typeof numero);
+
+//let numero1 = parseInt(prompt('Ingrese el primer número:'));
+//let numero2 = prompt('Ingrese el segundo número:');
+//numero2 = parseInt(numero2);
+
+//let resultado = numero1 + numero2;
+//console.log('el resultado es:', resultado);
+
+//let logico = prompt('Ingrese "true" o "false":');
+//console.log('ANTES tipo de dato:', typeof logico, logico);
+//logico = Boolean(logico);
+//console.log('DESPUÉS tipo de dato:', typeof logico, logico);
+
+/* Operadores */
+//let numero1 = parseInt(prompt('Ingrese el primer número:'));
+//let numero2 = prompt('Ingrese el segundo número:');
+//let numero3 = Number(prompt('Ingrese el tercer número:'));
+//numero2 = parseInt(numero2);
+
+//let resultado = numero1 + numero2 + numero3;
+//let resultado = numero1 + numero2;
+//console.log('el resultado de la suma es:', resultado);
+//resultado = numero1 - numero2;
+//console.log('el resultado de la resta es:', resultado);
+//resultado = numero1 * numero2;
+//console.log('el resultado de la multiplicación es:', resultado);
+//resultado = numero1 / numero2;
+//console.log('el resultado de la división es:', resultado);
+
+/* Cadenas literales */
+const nombre = 'Pepita';
+const apellido = 'Pérez';
+
+//const nombreApellido = nombre + ' ' + apellido;
+const nombreApellido = `El apellido de ${nombre} es ${apellido}`;
+console.log(nombreApellido);
