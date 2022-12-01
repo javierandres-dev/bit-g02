@@ -1,3 +1,8 @@
+// MODO ESTRICTO
+'use strict';
+/* unaVariable = 'valor de una variable';
+console.log(unaVariable); */
+
 // Soy un comentario de una sola línea
 /*
 Soy un comentario
@@ -36,7 +41,7 @@ console.log(soyConstante)
 const miConstante;
 console.log(miConstante) */
 
-// TIPOS DE DATO
+// TIPOS DE DATO - string, number, boolean, undefined, null, NaN
 /* let tdString = 'string o cadena de texto';
 tdString = "string con una 'palabra' entre comillas";
 tdString = 'string con una "palabra" entre comillas';
@@ -50,7 +55,16 @@ console.log(tdNumber);
 
 let tdBoolean = true;
 tdBoolean = false;
-console.log(tdBoolean); */
+console.log(tdBoolean);
+
+let soyVariableSoloDeclarada;
+console.log(soyVariableSoloDeclarada);
+let soyVariableSoloInicializada = null;
+console.log(soyVariableSoloInicializada);
+let num1 = 'hola';
+let num2 = 1;
+let soyNaN = num1 * num2;
+console.log(soyNaN); */
 
 // OPERADOR typeof
 /* console.log(typeof tdString);
@@ -67,12 +81,20 @@ console.log(edadUsuario); */
 /* let nombreYedad = nombreUsuario + ' ' + edadUsuario;
 document.write(nombreYedad); */
 
+// PLANTILLAS DE CADENA DE TEXTO
+/* const nombre = 'Pepita';
+const apellido = 'Pérez';
+
+const nombreApellido = nombre + ' ' + apellido;
+const nombreApellido = `El apellido de ${nombre} es ${apellido}`;
+console.log(nombreApellido); */
+
 // CONVERSIÓN DE TIPOS
 /* let numero = prompt('ingresa un número');
 console.log(numero);
-console.log('antes', typeof numero);
+console.log('antes de la conversión de tipo:', typeof numero);
 numero = Number(numero);
-console.log('después', typeof numero);
+console.log('después de la conversión de tipo:', typeof numero);
 
 let numero1 = parseInt(prompt('Ingrese el primer número:'));
 let numero2 = prompt('Ingrese el segundo número:');
@@ -87,25 +109,62 @@ logico = Boolean(logico);
 console.log('DESPUÉS tipo de dato:', typeof logico, logico); */
 
 // OPERADORES
-/* let numero1 = parseInt(prompt('Ingrese el primer número:'));
-let numero2 = prompt('Ingrese el segundo número:');
-let numero3 = Number(prompt('Ingrese el tercer número:'));
-numero2 = parseInt(numero2);
+//let numero1 = parseInt(prompt('Ingrese el primer número:'));
+//let numero2 = prompt('Ingrese el segundo número:');
+//let numero3 = Number(prompt('Ingrese el tercer número:'));
+//numero2 = parseInt(numero2);
 
-let resultado = numero1 + numero2 + numero3;
-let resultado = numero1 + numero2;
+//let resultado = numero1 + numero2 + numero3;
+/* let resultado = numero1 + numero2;
 console.log('el resultado de la suma es:', resultado);
 resultado = numero1 - numero2;
 console.log('el resultado de la resta es:', resultado);
 resultado = numero1 * numero2;
 console.log('el resultado de la multiplicación es:', resultado);
 resultado = numero1 / numero2;
-console.log('el resultado de la división es:', resultado); */
+console.log('el resultado de la división es:', resultado);
+resultado = numero1 % numero2;
+console.log('el resultado del resto de la división o módulo es:', resultado); */
 
-// PLANTILLAS DE CADENA DE TEXTO
-/* const nombre = 'Pepita';
-const apellido = 'Pérez';
+/* numero1++;
+console.log(numero1);
+numero2--;
+console.log(numero2); */
 
-const nombreApellido = nombre + ' ' + apellido;
-const nombreApellido = `El apellido de ${nombre} es ${apellido}`;
-console.log(nombreApellido); */
+/* let variable1 = '10';
+let variable2 = 10;
+
+let resultado = variable1 == variable2;
+resultado = variable1 === variable2;
+resultado = variable1 != variable2;
+resultado = variable1 !== variable2;
+
+variable1 = 5;
+
+resultado = variable1 > variable2;
+resultado = variable1 < variable2;
+
+variable1 = 4;
+variable2 = 2;
+
+resultado = variable1 >= variable2;
+resultado = variable1 <= variable2;
+console.log('resultado:', resultado); */
+
+/* let variable1 = 1;
+let variable2 = 2;
+let resultado = variable1 === 1 && variable2 === 2;
+resultado = variable1 === 11 || variable2 === 2;
+console.log('resultado:', resultado);
+console.log('resultado:', !resultado); */
+
+/* let miVariable = 'mi valor';
+miVariable = 10;
+miVariable += 2;
+miVariable -= 2;
+miVariable *= 2;
+miVariable /= 2;
+miVariable %= 2;
+console.log(miVariable); */
+
+console.log('works!');
