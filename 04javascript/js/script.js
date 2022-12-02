@@ -167,4 +167,60 @@ miVariable /= 2;
 miVariable %= 2;
 console.log(miVariable); */
 
-console.log('works!');
+// ESTRUCTURAS DE CONTROL - CONDICIONALES
+//let miVariable = 'Pepita';
+
+/* if (miVariable === 'Pepita') {
+  console.log('SI se cumple la condición');
+  console.log('te llamas Pepita!');
+} */
+
+/* if (miVariable === 'Pepita') {
+  console.log('SI se cumple la condición');
+  console.log('te llamas Pepita!');
+} else {
+  console.log('NO se cumple la condición');
+  console.log('no te llamas Pepita!');
+} */
+
+/* const resultado = miVariable === 'Pepito' ? 'se cumple' : 'no se cumple';
+console.log(resultado); */
+
+/* const colombiano = false;
+const mayorDe18 = true;
+const mayorDe21 = true;
+
+const respuesta =
+  colombiano && mayorDe18
+    ? 'es nacional y mayor de edad'
+    : !colombiano && mayorDe21
+    ? 'es extranjero y mayor de edad'
+    : 'es extranjero y menor de edad';
+console.log(respuesta); */
+
+/* let miVariable = 3;
+
+if (miVariable === 1) {
+  console.log('eres el primero');
+} else if (miVariable === 2) {
+  console.log('eres el segundo');
+} else {
+  console.log('no eres ni el primero ni el segundo');
+} */
+
+/* const miConstante = 10;
+
+switch (miConstante) {
+  case 'negro':
+    console.log('pintar el carro de negro');
+    break;
+  case 'azul':
+    console.log('pintar el carro de azul');
+    break;
+  case 'rojo':
+    console.log('pintar el carro de rojo');
+    break;
+  default:
+    console.log('pintar el carro de blanco');
+    break;
+} */
