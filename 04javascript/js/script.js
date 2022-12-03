@@ -224,3 +224,56 @@ switch (miConstante) {
     console.log('pintar el carro de blanco');
     break;
 } */
+
+// ESTRUCTURAS DE CONTROL - CICLOS
+/* for (let i = 0; i < 4; i++) {
+  console.log(i);
+} */
+
+/* for (let i = 0; i < 10; i++) {
+  console.log(i + 1);
+} */
+
+/* let i = 10;
+
+while (i < 4) {
+  console.log(i);
+  i++;
+} */
+
+/* let i = 0;
+
+while (i < 4) {
+  console.log(i + 1);
+  i++;
+} */
+
+/* i = 10;
+
+do {
+  console.log(i);
+  i++;
+} while (i < 4); */
+
+/* let continuar = true;
+
+do {
+  continuar = confirm('¿Quiere seguir jugando?');
+  console.log('estoy jugando');
+} while (continuar === true); */
+
+// FUNCIONES
+function miFuncionSinParametros() {
+  console.log('Hola, soy una función sin parámetros');
+}
+
+//miFuncionSinParametros();
+
+function miFuncionConParametros(parametro) {
+  console.log(
+    'Hola, soy una función con parámetros, estoy recibiendo como parámetro:',
+    parametro
+  );
+}
+
+//miFuncionConParametros(10);
