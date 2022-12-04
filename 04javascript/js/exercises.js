@@ -23,7 +23,7 @@ si se llama Pepita y es menor de edad permitir ingreso a sala de espera 2,
 si no se llama Pepita pero es mayor de edad permitir ingreso a sala de espera 3,
 sino dirigir a la sala de espera. 4 */
 
-// Pedir un número y mostrar los números pares desde 1 hasta número ingresado.
+// Pedir un número y mostrar los números pares desde 1 hasta n.
 function multiplosDeDos() {
   const numero = parseInt(prompt('Ingresa un número'));
   let pares = '';
@@ -36,6 +36,13 @@ function multiplosDeDos() {
 }
 //multiplosDeDos();
 
+// Pedir un número, mostrar el doble de n.
+// Pedir un número, mostrar el triple de n.
+// Pedir un número, mostrar la mitad de n.
+// Pedir un número, mostrar la tercera parte de n.
+// Pedir un número, mostrar el cuadrado de n.
+// Pedir un número, mostrar n reducido en 5.
+// Pedir un número, mostrar el doble de n más 4.
 // Pedir un número, mostrar si es positivo, negativo o si es cero.
 // Pedir un número, mostrar si es par, impar o si es cero.
 // Pedir un número, mostrar si es un número primo o no.
@@ -45,10 +52,9 @@ function multiplosDeDos() {
 // Pedir dos números, mostrar la división.
 // Pedir dos números, mostrar el resto de la división.
 // Pedir dos números, mostrar si el primer número es divisible por el segundo.
+// Pedir dos números y el nombre de una operación, mostrar el resultado.
 // Pedir un número, mostrar la suma total desde 1 hasta n.
 // Pedir un número, mostrar la suma de los números pares desde 1 hasta n.
 // Pedir un número, mostrar la suma de los números impares desde 1 hasta n.
 // Pedir un número, mostrar multiplos de 3 desde 1 hasta n.
 // Pedir un número, mostrar los números desde n hasta 0.
-// Pedir una palabra, mostrar la cantidad de letras que tiene la palabra.
-// Pedir una palabra, mostrar cantidad de vocales que incluye la palabra.
