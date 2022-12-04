@@ -51,6 +51,9 @@ End date: 2023/03/10
 - [Guide 14](guide14.md)
 - [Guide 15](guide15.md)
 - [Guide 16](guide16.md)
+- [Guide 17](guide17.md)
+- [Guide 18](guide18.md)
+- [Guide 19](guide19.md)
 ---
 ## Software Developer
 [Javier Andrés Garzón Patarroyo](https://javierandresgp.com) :copyright: 2022
