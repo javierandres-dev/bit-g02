@@ -17,7 +17,7 @@ End date: 2023/03/10
 - UX
 - Framework
 - Bootstrap
-- JS
+- JavaScript
 - JSON
 - API
 - Library
