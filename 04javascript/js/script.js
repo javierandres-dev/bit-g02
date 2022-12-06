@@ -277,3 +277,13 @@ function miFuncionConParametros(parametro) {
 }
 
 //miFuncionConParametros(10);
+
+/* function funcionDeclarada() {
+  console.log('Soy una función declarada.');
+}
+funcionDeclarada(); */
+
+/* const funcionExpresada = () => {
+  console.log('Soy una función expresada.');
+};
+funcionExpresada(); */
