@@ -165,11 +165,139 @@ function multiplica() {
 //multiplica();
 
 // Pedir dos números, mostrar la división.
+function division() {
+  const numero1 = parseInt(prompt('Ingresa un primer número:'));
+  const numero2 = parseInt(prompt('Ingresa un segundo número:'));
+  const resultado = numero1 / numero2;
+  alert(`${numero1} / ${numero2} = ${resultado}`);
+}
+//division();
+
 // Pedir dos números, mostrar el resto de la división.
+const residuo = () => {
+  const numero1 = parseInt(prompt('Ingresa un primer número:'));
+  const numero2 = parseInt(prompt('Ingresa un segundo número:'));
+  const resultado = numero1 % numero2;
+  alert(`${numero1} mod ${numero2} = ${resultado}`);
+};
+//residuo();
+
 // Pedir dos números, mostrar si el primer número es divisible por el segundo.
+function esDivisible() {
+  const numero1 = parseInt(prompt('Ingresa un primer número:'));
+  const numero2 = parseInt(prompt('Ingresa un segundo número:'));
+  const resultado = numero1 % numero2;
+  resultado === 0
+    ? alert(`${numero1} SI es divisible por ${numero2}`)
+    : alert(`${numero1} NO es divisible por ${numero2}`);
+  /* if (resultado === 0) {
+    alert(`${numero1} SI es divisible por ${numero2}`);
+  } else {
+    alert(`${numero1} NO es divisible por ${numero2}`);
+  } */
+}
+//esDivisible();
+
 // Pedir dos números y el nombre de una operación, mostrar el resultado.
+const unaOperacion = () => {
+  const numero1 = parseInt(prompt('Ingresa un primer número:'));
+  const numero2 = parseInt(prompt('Ingresa un segundo número:'));
+  const operacion = prompt(
+    'Ingresa una operación: sumar, restar, multiplicar o dividir'
+  );
+
+  switch (operacion) {
+    case 'sumar':
+      alert(`${numero1} + ${numero2} = ${numero1 + numero2}`);
+      break;
+    case 'restar':
+      alert(`${numero1} - ${numero2} = ${numero1 - numero2}`);
+      break;
+    case 'multiplicar':
+      alert(`${numero1} x ${numero2} = ${numero1 * numero2}`);
+      break;
+    case 'dividir':
+      alert(`${numero1} / ${numero2} = ${numero1 / numero2}`);
+      break;
+    default:
+      alert(`La operación "${operacion}" no existe en esta función.`);
+      break;
+  }
+};
+//unaOperacion();
+
 // Pedir un número, mostrar la suma total desde 1 hasta n.
+function sumaTotal() {
+  const numero1 = parseInt(prompt('Ingresa un número:'));
+
+  let resultado = 0;
+
+  let i = 1;
+  while (i <= numero1) {
+    resultado += i;
+    i++;
+  }
+
+  /* for (let i = 1; i <= numero1; i++) {
+    resultado += i;
+  } */
+
+  alert('La suma total es: ' + resultado);
+}
+//sumaTotal();
+
 // Pedir un número, mostrar la suma de los números pares desde 1 hasta n.
+const sumaTotalDePares = () => {
+  const numero1 = parseInt(prompt('Ingresa un número:'));
+
+  let resultado = 0;
+
+  for (let i = 1; i <= numero1; i++) {
+    if (i % 2 === 0) {
+      resultado = resultado + i;
+    }
+  }
+
+  alert('La suma total de los pares es: ' + resultado);
+};
+//sumaTotalDePares();
+
 // Pedir un número, mostrar la suma de los números impares desde 1 hasta n.
+const sumaTotalDeImpares = () => {
+  const numero1 = parseInt(prompt('Ingresa un número:'));
+
+  let resultado = 0;
+
+  for (let i = 1; i <= numero1; i++) {
+    if (i % 2 !== 0) {
+      resultado = resultado + i;
+    }
+  }
+
+  alert('La suma total de los impares es: ' + resultado);
+};
+//sumaTotalDeImpares();
+
 // Pedir un número, mostrar multiplos de 3 desde 1 hasta n.
+function multiplosDe3() {
+  const numero1 = parseInt(prompt('Ingresa un número:'));
+
+  let i = 1;
+  while (i <= numero1) {
+    if (i % 3 === 0) {
+      console.log(i);
+    }
+    i++;
+  }
+}
+//multiplosDe3();
+
 // Pedir un número, mostrar los números desde n hasta 0.
+const desdeNhasta0 = () => {
+  const numero1 = parseInt(prompt('Ingresa un número:'));
+
+  for (let i = numero1; i > -1; i--) {
+    console.log(i);
+  }
+};
+//desdeNhasta0();

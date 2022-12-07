@@ -263,20 +263,20 @@ do {
 } while (continuar === true); */
 
 // FUNCIONES
-function miFuncionSinParametros() {
+/* function miFuncionSinParametros() {
   console.log('Hola, soy una función sin parámetros');
 }
 
-//miFuncionSinParametros();
+miFuncionSinParametros(); */
 
-function miFuncionConParametros(parametro) {
+/* function miFuncionConParametros(parametro) {
   console.log(
     'Hola, soy una función con parámetros, estoy recibiendo como parámetro:',
     parametro
   );
 }
 
-//miFuncionConParametros(10);
+miFuncionConParametros(10); */
 
 /* function funcionDeclarada() {
   console.log('Soy una función declarada.');
@@ -287,3 +287,37 @@ funcionDeclarada(); */
   console.log('Soy una función expresada.');
 };
 funcionExpresada(); */
+
+// ARRAY, ARREGLO, VECTOR, LISTA
+/* const soyArray = ['texto', 10, true];
+console.log(soyArray);
+console.log(soyArray.length); */
+
+const asistencia = [
+  'wendy carlos',
+  'mariangel socorro',
+  'valentina vargas',
+  'luisa diaz',
+  'yuliana paez',
+  'yessica camargo',
+  'juliana gil',
+  'eusbeidy pérez',
+  'andrea mártinez',
+  'melany álvarez',
+  'vanessa robles',
+  'eleiza caridad',
+  'sergio hernández',
+  'johnnathan gallego',
+  'wilson chaparro',
+  'luis morales',
+  'donovan cano',
+  'cristian montealegre',
+  'jhonatan sánchez',
+  'enrique abril',
+];
+console.log(`Total de asistentes: ${asistencia.length}`);
+
+for (let i = 0; i < asistencia.length; i++) {
+  console.log('indice:', i);
+  console.log('elemento:', asistencia[i]);
+}
