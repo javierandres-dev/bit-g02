@@ -293,7 +293,7 @@ funcionExpresada(); */
 console.log(soyArray);
 console.log(soyArray.length); */
 
-const asistencia = [
+/* const asistencia = [
   'wendy carlos',
   'mariangel socorro',
   'valentina vargas',
@@ -320,4 +320,24 @@ console.log(`Total de asistentes: ${asistencia.length}`);
 for (let i = 0; i < asistencia.length; i++) {
   console.log('indice:', i);
   console.log('elemento:', asistencia[i]);
-}
+} */
+
+// OBJETO
+/* const soyObjeto = {
+  soyPropiedad: 'soy el valor de la propiedad',
+  soyMetodo: () => {
+    console.log('ejecutado desde método del objeto');
+  },
+};
+console.log(soyObjeto);
+console.log(soyObjeto.soyPropiedad);
+console.log(soyObjeto.soyMetodo);
+console.log(soyObjeto.soyMetodo()); */
+
+/* const usuario = {
+  username: null,
+  password: null,
+};
+console.log(usuario); */
+
+//console.log(window);
