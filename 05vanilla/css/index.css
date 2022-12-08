@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+h3 {
+  text-align: center;
+}
+form {
+  max-width: 480px;
+  width: 100%;
+  margin: 32px auto 0;
+}
+fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border: 2px solid blue;
+  border-radius: 8px;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 8px 16px;
+}
+textarea {
+  resize: none;
+}
+button {
+  cursor: pointer;
+  padding: 8px 16px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+.reset-btn {
+  background-color: red;
+}
+.warning {
+  color: orangered;
+}
