@@ -1,3 +1,4 @@
+'use strict';
 const $form = document.getElementById('form');
 const $notify = document.getElementById('notify');
 
@@ -12,7 +13,6 @@ function handleSubmit(event) {
     const name = $form.name.value;
     const email = $form.email.value;
     const message = $form.message.value;
-
     localStorage.setItem('name', name);
     localStorage.setItem('email', email);
     localStorage.setItem('message', message);

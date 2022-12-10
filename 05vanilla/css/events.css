@@ -1,0 +1,25 @@
+.form {
+  width: 300px;
+  margin: 32px auto 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 32px;
+}
+.btn {
+  width: 100px;
+  font-size: 3rem;
+  color: white;
+  border-radius: 8px;
+}
+.btn:hover {
+  opacity: 0.5;
+}
+.btn-dec {
+  background-color: red;
+  border-color: red;
+}
+.btn-inc {
+  background-color: green;
+  border-color: green;
+}
