@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>From HTML</title>
+  </head>
+  <body>
+    <h1>From HTML</h1>
+    <hr />
+    <button onclick="alert('Hi, from buttom!')">Show alert</button>
+    <button onclick="myfunction()">Run my function</button>
+    <button onclick="myfunction()">Run my function</button>
+    <button class="btn">Run my function</button>
+    <button class="btn">Run my function</button>
+    <script>
+      const $btns = document.querySelectorAll('.btn');
+      console.log($btns);
+
+      $btns.forEach(($btn) => {
+        $btn.addEventListener('click', () => {
+          myfunction();
+        });
+      });
+
+      function myfunction() {
+        alert('Hello, from my function!');
+      }
+    </script>
+  </body>
+</html>
