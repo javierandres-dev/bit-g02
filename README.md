@@ -18,8 +18,8 @@ End date: 2023/03/10
 - Framework
 - Bootstrap
 - JavaScript
-- API
 - JSON
+- API
 - Library
 - React
 ## Initial Requirements
@@ -58,6 +58,7 @@ End date: 2023/03/10
 - [Guide 20](guide20.md)
 - [Guide 21](guide21.md)
 - [Guide 22](guide22.md)
+- [Guide 23](guide23.md)
 ---
 ## Software Developer
 [Javier Andrés Garzón Patarroyo](https://javierandresgp.com) :copyright: 2022
