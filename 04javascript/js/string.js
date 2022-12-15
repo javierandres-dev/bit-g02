@@ -1,0 +1,71 @@
+const hola = 'Hola, DEVS!';
+const holaTemplate = `Hola, DEVS!`;
+const holaObjeto = new String('Hola, DEVS!');
+const a = 'a';
+const woman = 'pepita';
+const firstName = 'pepita';
+const lastName = 'pérez';
+const hello = 'Hello, DEVS!';
+const man = 'pepito';
+const holas = 'Hola, hola, hola, qué más?';
+const students =
+  'wendy carlos, mariangel socorro, valentina vargas, luisa diaz, yuliana paez, yessica camargo, juliana gil, eusbeidy pérez, andrea mártinez, melany álvarez, vanessa robles, eleiza caridad, sergio hernández, johnnathan gallego, wilson chaparro, luis morales, donovan cano, cristian montealegre, jhonatan sánchez, enrique abril';
+const fullname = 'fulanito de tal';
+const espacios = '    Hola    ';
+
+/* console.log(hola);
+console.log(typeof hola);
+console.log(holaTemplate);
+console.log(typeof holaTemplate);
+console.log(holaObjeto);
+console.log(typeof holaObjeto);
+console.log(a);
+console.log(typeof a); */
+
+/* console.log(hola[0]);
+console.log(hola[10]);
+console.log(hola.length); */
+
+// console.log(hola.at(0));
+// console.log(hola.at(-1));
+// console.log(hola.charAt(0));
+// console.log(hola.charAt(hola.length - 1));
+// console.log(hola.charCodeAt(0));
+// console.log(firstName.concat(' ', lastName));
+// console.log(hola.endsWith('!'));
+// console.log(hola.endsWith('?'));
+// console.log(hola.includes('hola'));
+// console.log(hola.includes('Hola'));
+// console.log(hello.indexOf('l'));
+// console.log(hello.lastIndexOf('l'));
+// console.log(woman.localeCompare(firstName));
+// console.log(woman.localeCompare(man));
+// console.log(man.localeCompare(woman));
+// console.log(holas.match('ola'));
+// console.log(holas.match('xxxx'));
+// console.log(hola.repeat(2));
+//console.log(hola.replace('DEVS', 'Desarrolladores'));
+// console.log(hola.search(','));
+// console.log(hola.search('ola'));
+// console.log(hola.search(' '));
+// console.log(hola.slice(6));
+// console.log(hola.split(''));
+// console.log(hola.split(', '));
+// console.log(students.split(', '));
+// console.log(hola.startsWith('Hola'));
+// console.log(hola.startsWith('hola'));
+// console.log(hola.substr(6));
+// console.log(fullname.substr(9));
+// console.log(hola.substring(6));
+// console.log(hola.substring(6, 9));
+// console.log(hola.toLowerCase());
+// console.log(hola.toUpperCase());
+// console.log(espacios);
+// console.log(espacios.trimStart());
+// console.log(espacios.trimEnd());
+// console.log(espacios.trim());
+// console.log(hola);
+// console.log(hola.valueOf());
+// console.log(holaObjeto);
+// console.log(typeof holaObjeto);
+// console.log(holaObjeto.valueOf());
