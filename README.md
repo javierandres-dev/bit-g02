@@ -33,7 +33,7 @@ End date: 2023/03/10
 - :open_file_folder: 02css
 - :open_file_folder: 03bootstrap
 - :open_file_folder: 04javascript
-- :open_file_folder: 05vanilla
+- :open_file_folder: 05examples
 ### Guides
 - [Guide 00](guide00.md)
 - [Guide 01](guide01.md)
