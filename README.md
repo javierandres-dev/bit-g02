@@ -60,6 +60,8 @@ End date: 2023/03/10
 - [Guide 22](guide22.md)
 - [Guide 23](guide23.md)
 - [Guide 24](guide24.md)
+- [Tasks](tasks.md)
 ---
 ## Software Developer
-[Javier Andrés Garzón Patarroyo](https://javierandresgp.com) :copyright: 2022
+Built by [Javi](https://javierandres.dev) :copyright: 2022 - 2023  
+Found a bug or have an idea? [Contact me](https://javierandres.dev).
