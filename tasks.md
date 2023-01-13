@@ -13,7 +13,7 @@ You must use fonts, icons, colors, images.
 - "docs/js/main.js" file
 - "docs/img/me" file
 - Section or page about yourself
-* Section or page about your projects
+- Section or page about your projects
   - Link to "bit06exercises" repository
 - Section or page of contact
 - Responsive
