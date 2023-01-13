@@ -2,7 +2,7 @@
 This project consists on creating your own website focus on job environment.  
 In this project you can't use any framework.  
 You must use fonts, icons, colors, images.
-## Requeriments
+## Requirements
 - Repo name: "bit07me"
 - "README" file
 - "docs" directory
