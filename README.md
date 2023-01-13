@@ -34,10 +34,8 @@ End date: 2023/03/10
 - :open_file_folder: 03bootstrap
 - :open_file_folder: 04javascript
 - :open_file_folder: 05examples
-### Guides
-- [Guides](./guides/guides.md)
-### Tasks
-- [Tasks](./tasks/tasks.md)
+### [Guides](./guides/guides.md)
+### [Tasks](./tasks/tasks.md)
 ---
 ## Software Developer
 Built by [Javi](https://javierandres.dev) :copyright: 2022 - 2023  
