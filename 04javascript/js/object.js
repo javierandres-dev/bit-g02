@@ -36,6 +36,9 @@ const personaA = {
 
 const personaB = personaA
 
+const origen = {a: 1, b:2, c: 3, d:4}
+const destino = {aa: 11, bb:22, cc: 33, dd:44}
+
 // console.log(objetoVacio);
 // console.log(typeof objetoVacio);
 // console.log(objetoVacio instanceof Object);
@@ -81,3 +84,17 @@ const personaB = personaA
 // for (const key in personaA) {
 //   console.log('valor:', personaA[key]);
 // }
+
+// console.log(personaA);
+// console.log(Object.keys(personaA));
+
+// console.log(personaA);
+// console.log(Object.values(personaA));
+
+// console.log(personaA);
+// console.log(personaA.valueOf());
+
+// console.log(origen);
+//console.log(destino);
+// const retornado = Object.entries(origen)
+// console.log(retornado);

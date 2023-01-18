@@ -1,0 +1,6 @@
+{
+  "name": "pepita",
+  "age": 20,
+  "active": true,
+  "children": ["pepito", "luis"]
+}

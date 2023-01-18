@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .d-none {
+        display: none;
+      }
+    </style>
+    <title>JQuery</title>
+  </head>
+  <body>
+    <h1>JQuery</h1>
+    <hr />
+    <p>párrafo1</p>
+    <p>párrafo2</p>
+    <p>párrafo3</p>
+    <button>¡Clickeame!</button>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" referrerpolicy="no-referrer"></script>
+    <script>
+      $(document).ready(function () {
+        $('button').click(function () {
+          $('p').hide();
+        })
+      })
+    </script>
+    <!-- <script>
+      const $btn = document.querySelector('button');
+      const $pp = document.querySelectorAll('p')
+
+      $btn.addEventListener('click', ()=>{
+        $pp.forEach(($p)=>{
+          $p.classList.add('d-none')
+        })
+      })
+    </script> -->
+  </body>
+</html>
