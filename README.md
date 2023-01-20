@@ -23,7 +23,7 @@ End date: 2023/03/10
 - Library
 - React
 ## Initial Requirements
-1. Desire and commitment to study to learn
+1. Desire and commitment to study and to learn
 2. Computer
 3. Internet connection
 ---
