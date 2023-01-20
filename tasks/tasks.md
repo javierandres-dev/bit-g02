@@ -1,8 +1,7 @@
 # Tasks
-- Check tasks previous days
-- Make sure each task meets the requirements
+- Check previous days tasks
+- Make sure each task accomplish with the requirements
 - Make a list of questions you have
-- Make sure you answer the survey
 ---
 ## Task 01
 ### Requirements
@@ -86,6 +85,6 @@ You must use fonts, icons, colors, images.
       * credentials:
         -  Username: bit
         -  Password: 2023
-    - If the login is successfuly show exercises page
+    - If the login is successfully show exercises page
 - Section or page of contact
 - Responsive
