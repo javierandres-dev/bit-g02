@@ -28,8 +28,3 @@
 ## Resources
 - [All The Tags](https://allthetags.com/)
 - [HTML reference](https://htmlreference.io/)
-## Task
-- Check tasks previous days
-- Make sure each task meets the requirements
-- Make a list of questions you have
-- Make sure you answer the survey

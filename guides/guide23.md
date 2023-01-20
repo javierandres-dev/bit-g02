@@ -17,5 +17,3 @@
 - [Third-party APIs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Third_party_APIs)
 - [Working with APIs in JavaScript](https://www.geeksforgeeks.org/working-with-apis-in-javascript/)
 - [JSONPlaceholder](https://jsonplaceholder.typicode.com/)
-## Task
-- Practice

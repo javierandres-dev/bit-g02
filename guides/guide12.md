@@ -15,8 +15,3 @@
 - [transition property](https://developer.mozilla.org/en-US/docs/Web/CSS/transition)
 - [!important keyword](https://developer.mozilla.org/en-US/docs/Web/CSS/important)
 - [Bootstrap](https://getbootstrap.com/)
-## Task
-* Create new project
-  - Repo name: bit04htmlcss
-* Create a new project with your mate
-  - Repo name: bit05bootstrap

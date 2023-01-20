@@ -20,5 +20,3 @@
 - [Chrome](https://www.google.com/chrome/)
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [GitHub](https://github.com/)
-## Task
-- Create GitHub account

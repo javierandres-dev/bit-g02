@@ -18,7 +18,3 @@
 - [Google Fonts](https://fonts.google.com/)
 - [Color Hunt](https://colorhunt.co/)
 - [Responsive design](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
-## Task
-* Create new project
-  - Repo name: bit03htmlcss
-  - Requirements in the Discord channel

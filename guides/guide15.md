@@ -26,5 +26,3 @@
 - [Window](https://developer.mozilla.org/en-US/docs/Web/API/Window)
 - [Variables](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables)
 - [Javascript Data Types](https://www.javatpoint.com/javascript-data-types)
-## Task
-- Practice

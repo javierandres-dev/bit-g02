@@ -14,5 +14,3 @@
 - [CSS Units Explained](https://www.digitalocean.com/community/tutorials/css-css-units-explained)
 - [Background](https://developer.mozilla.org/en-US/docs/Web/CSS/background)
 - [SVG: Scalable Vector Graphics](https://developer.mozilla.org/en-US/docs/Web/SVG)
-## Task
-- Practice

@@ -11,5 +11,3 @@
 - [What is an array?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Arrays#what_is_an_array)
 - [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 - [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
-## Task
-- Practice

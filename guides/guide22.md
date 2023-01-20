@@ -16,5 +16,3 @@
 - [CSS Object Model (CSSOM)](https://developer.mozilla.org/en-US/docs/Web/API/CSS_Object_Model)
 - [Browser Object Model (BOM)](https://www.javatpoint.com/browser-object-model)
 - [Web Storage API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API)
-## Task
-- Practice
