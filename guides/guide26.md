@@ -9,3 +9,8 @@
 - gitignore file
 - How SPA react works
 ## Resources
+- [ReactJS](https://reactjs.org/)
+- [NodeJS](https://nodejs.org/)
+- [npmJS](https://www.npmjs.com/)
+- [Create React App](https://create-react-app.dev/)
+- [gitignore file](https://git-scm.com/docs/gitignore#)
