@@ -11,7 +11,7 @@ function Parts() {
       <ul>
         <li>HTML</li>
         <li>CSS</li>
-        <li>JS</li>
+        <li>JavaScript</li>
       </ul>
     </>
   );
