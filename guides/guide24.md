@@ -9,7 +9,7 @@
 - Boolean object
 - Array object
 - Object object
-- JSON object
+- JSON literal object
 ## Resources
 - [Introducing JavaScript objects](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects)
 - [JavaScript object basics](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
