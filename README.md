@@ -23,8 +23,9 @@ End date: 2023/03/10
 - Library
 - React
 ## Initial Requirements
-- Computer
-- OS (Operating System)
+1. Desire and commitment to study to learn
+2. Computer
+3. Internet connection
 ---
 ## Documentation
 ### Code sample
@@ -33,7 +34,8 @@ End date: 2023/03/10
 - :open_file_folder: 02css
 - :open_file_folder: 03bootstrap
 - :open_file_folder: 04javascript
-- :open_file_folder: 05examples
+- :open_file_folder: 05vanillaExamples
+- :open_file_folder: 06react
 ### [Guides](./guides/guides.md)
 ### [Tasks](./tasks/tasks.md)
 ---
