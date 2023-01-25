@@ -1,0 +1,194 @@
+[
+  {
+    "id": "1",
+    "name": "Sergio Hernández",
+    "photo": "https://sergiohernan19.github.io/bit07me/img/me.png",
+    "site": "https://sergiohernan19.github.io/bit07me/"
+  },
+  {
+    "id": "2",
+    "name": "Yessica Camargo",
+    "photo": "https://yessicac98.github.io/bit07me/docs/img/me.jpeg",
+    "site": "https://yessicac98.github.io/bit07me/"
+  },
+  {
+    "id": "3",
+    "name": "Karol Valentina Vargas Perez",
+    "photo": "https://vale-vp.github.io/bit07me/img/me.jpg",
+    "site": "https://vale-vp.github.io/bit07me/"
+  },
+  {
+    "id": "4",
+    "name": "Cristian G. Montealegre",
+    "photo": "https://cgmontea98.github.io/bit07me/img/me.jpg",
+    "site": "https://cgmontea98.github.io/bit07me/"
+  },
+  {
+    "id": "5",
+    "name": "Wilson Barón",
+    "photo": "",
+    "site": ""
+  },
+  {
+    "id": "6",
+    "name": "Donovan Stif",
+    "photo":"https://donhack77.github.io/bit07me/img/me.png",
+    "site": "https://donhack77.github.io/bit07me/"
+  },
+  {
+    "id": "7",
+    "name": "Wendy Carlos",
+    "photo": "https://wenaleja.github.io/bit07me/img/imagen1.png",
+    "site": "https://wenaleja.github.io/bit07me/"
+  },
+  {
+    "id": "8",
+    "name": "Melany Álvarez",
+    "photo": "",
+    "site": ""
+  },
+  {
+    "id": "9",
+    "name": "Luisa Díaz Sandoval",
+    "photo":"https://fernandasandotkd.github.io/bit07me/img/me.png",
+    "site": "https://fernandasandotkd.github.io/bit07me/"
+  },
+  {
+    "id": "10",
+    "name": "Eusbeidy Pérez",
+    "photo": "https://eusbeidy.github.io/bit07me/img/me.png",
+    "site": "https://eusbeidy.github.io/bit07me/"
+  },
+  {
+    "id": "11",
+    "name": "Mariangel Socorro",
+    "photo": "https://maribsu1.github.io/bit07me/img/me.jpg",
+    "site": "https://maribsu1.github.io/bit07me/"
+  },
+  {
+    "id": "12",
+    "name": "Luis Morales",
+    "photo": "https://morales19062020.github.io/bit07me/img/me.png",
+    "site": "https://morales19062020.github.io/bit07me/"
+  },
+  {
+    "id": "13",
+    "name": "Juliana Gil",
+    "photo": "https://julianagil.github.io/bit07me/img/yo1.jpg",
+    "site": "https://julianagil.github.io/bit07me/"
+  },
+  {
+    "id": "14",
+    "name": "Jhonatan Sanchez",
+    "photo": "https://jsr666.github.io/bit07me/img/me.jpg",
+    "site": "https://jsr666.github.io/bit07me/"
+  },
+  {
+    "id": "15",
+      "name": "Vanessa Robles",
+      "photo": "https://vaneroblessilva.github.io/bit07me/img/me.jpg",
+      "site": "https://vaneroblessilva.github.io/bit07me/"
+  },
+  {
+    "id": "16",
+    "name": "Eleiza Caridad",
+    "photo": "",
+    "site": ""
+  },
+  {
+    "id": "17",
+    "name": "Johnnathan Gallego",
+    "photo": "https://jgallego12345.github.io/bit07me/img/fotoportada.png",
+    "site": "https://jgallego12345.github.io/bit07me/"
+  },
+  {
+    "id": "18",
+    "name": "Yuliana Paez",
+    "photo": "https://yulianapaez.github.io/bit07me/img/me.jpeg",
+    "site": "https://yulianapaez.github.io/bit07me/"
+  },
+  {
+    "id": "19",
+    "name": "Enrique Abril",
+    "photo": "https://kiketach.github.io/bit07me/img/me.png",
+    "site": "https://kiketach.github.io/bit07me/"
+  },
+  {
+    "id": "20",
+    "name": "Andrea Martínez",
+    "photo": "https://martinezandre.github.io/bit07me/img/me.jpeg",
+    "site": "https://martinezandre.github.io/bit07me/"
+  },
+  {
+    "id": "21",
+    "name": "Juan Aguilar",
+    "photo": "",
+    "site": ""
+  },
+  {
+    "id": "22",
+    "name": "Andrea Zuluaga",
+    "photo": "https://andreazu14.github.io/bit07me/img/yoo.jpg",
+    "site": "https://andreazu14.github.io/bit07me/"
+  },
+  {
+    "id": "23",
+    "name": "Juan Aguilar",
+    "photo": "",
+    "site": ""
+  },
+  {
+    "id": "24",
+    "name": "Sharon Monroy",
+    "photo": "https://sharontatiana.github.io/bit07me/img/me.jpg",
+    "site": "https://sharontatiana.github.io/bit07me/"
+  },
+  {
+    "id": "25",
+    "name": "Jesus Moran",
+    "photo": "https://jame291104.github.io/bit07me/img/me.jpg",
+    "site": "https://jame291104.github.io/bit07me/"
+  },
+  {
+    "id": "26",
+    "name": "Jeisson Alexander Gavilán Murcia",
+    "photo": "https://alexander206.github.io/img/me.jpg",
+    "site": "https://alexander206.github.io/"
+  },
+  {
+    "id": "27",
+    "name": "Diego Parra",
+    "photo": "https://diegoparrae.github.io/bit07me/img/me.jpeg",
+    "site": "https://diegoparrae.github.io/bit07me/"
+  },
+  {
+    "id": "28",
+    "name": "Karen Benavides",
+    "photo": "",
+    "site": ""
+  },
+  {
+    "id": "29",
+    "name": "Vanessa Rodriguez",
+    "photo": "https://vanessamrb.github.io/bit07me/img/me.jpg",
+    "site": "https://vanessamrb.github.io/bit07me/"
+  },
+  {
+    "id": "30",
+    "name": "Nicolas Olmos",
+    "photo":"https://nicolasnos.github.io/bit07me/img/me.jpeg",
+    "site": "https://nicolasnos.github.io/bit07me/"
+  },
+  {
+    "id": "31",
+    "name": "Sebastián Martínez Layos",
+    "photo": "https://sbslayos.github.io/bit07me/img/me.jpeg",
+    "site": "https://sbslayos.github.io/bit07me/"
+  },
+  {
+    "id": "32",
+    "name": "Daniel Romero",
+    "photo": "https://3ld4n1el.github.io/bit07me/img/me.jpg",
+    "site": "https://3ld4n1el.github.io/bit07me/"
+  }
+]
