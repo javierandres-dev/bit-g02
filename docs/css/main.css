@@ -1,0 +1,85 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+  font-size: 62.5%;
+}
+body {
+  height: 100%;
+  margin: 0;
+  background-color: #fff;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.title {
+  text-align: center;
+  font-size: 2.4rem;
+  color: lightseagreen;
+}
+.form {
+  width: 30rem;
+  margin: 0 auto 2rem;
+  text-align: center;
+  border-bottom: 2px solid lightseagreen;
+}
+.form-input {
+width: 80%;
+padding: 1rem;
+font-size: 2rem;
+border: none;
+}
+.form-input:focus {
+  outline: none;
+}
+.form-btn {
+font-size: 2rem;
+padding: 1rem;
+background-color: #fff;
+border: none;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+.card {
+  width: 14rem;
+  height: 14rem;
+  margin: 0;
+  text-align: center;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 0 5rem #909090;
+  transition: box-shadow 250ms ease-in-out;
+}
+.card:hover {
+  box-shadow: 0 0 5rem rgba(32, 178, 170, 0.5);
+}
+.card-link {
+  color: lightseagreen;
+  opacity: 0.75;
+  transition: opacity 250ms ease-in-out;
+}
+.card-link:hover {
+  opacity: 1;
+}
+.card-image {
+  width: 100%;
+}
+.card-text {
+  width: 10rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  position: absolute;
+  top: 10rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
