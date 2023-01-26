@@ -39,6 +39,7 @@ End date: 2023/03/10
 - :open_file_folder: 07reactExamples
 ### [Guides](./guides/guides.md)
 ### [Tasks](./tasks/tasks.md)
+### [Course page](https://javierandresgp.github.io/bit-course-frontend_01/)
 ---
 ## Software Developer
 Built by [Javi](https://javierandres.dev) :copyright: 2022 - 2023  
