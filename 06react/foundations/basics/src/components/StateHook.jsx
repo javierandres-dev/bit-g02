@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 
 export const StateHook = () => {
 const [contador, setContador] = useState(0)
+
   return (
     <>
       <h2>State Hook</h2>

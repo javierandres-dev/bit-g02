@@ -11,10 +11,16 @@ import { PropsChildren } from "./components/PropsChildren";
 import { Styles } from "./components/Styles";
 import { StylesModul } from "./components/StylesModul";
 import { StateHook } from "./components/StateHook";
+import { CustomHook } from "./components/CustomHook";
+import { Lifecycle } from "./components/Lifecycle";
 
 function App() {
   return (
     <Fragment>
+      <Lifecycle/>
+      <hr/>
+      <CustomHook/>
+      <hr/>
       <StateHook/>
       <hr/>
       <StylesModul/>
