@@ -1,6 +1,6 @@
 # Guide 28
 ## Learning Objectives
-- Project managment approach
+- PMA or Project Managment Approach
 - Waterfall methodology
 - Agile methodology
 - SCRUM
