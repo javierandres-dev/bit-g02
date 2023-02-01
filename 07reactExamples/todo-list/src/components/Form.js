@@ -1,22 +1,22 @@
 import React from 'react'
+import { v4 as uuidv4 } from 'uuid';
 
-export const Form = ({ task, setTask, list, setList }) => {
+export const Form = ({task, setTask, tasks, setTasks}) => {
 
-/* const handleChange = (e) => {
-  setTask(e.target.value)
-} */
+  const handleInputName = (e) => {
+    setTask({...task, id: uuidv4(), name: e.target.value})
+  }
 
-const handleSubmit = (e) => {
-  e.preventDefault()
-  setList([...list, task])
-  setTask("")
-}
+  const handleAdd = (e) => {
+    e.preventDefault()
+    setTasks([...tasks, task])
+    setTask({id: null, name: "", completed: false})
+  }
 
   return (
-    <form onSubmit={handleSubmit}>
-      <label htmlFor="task">Ingrese el nombre de la tarea</label>
-      {/* <input id='task' type="text" value={task} onChange={handleChange} /> */<input id='task' type="text" value={task} onChange={e => setTask(e.target.value)} />}
-      <button>Agregar tarea</button>
+    <form>
+      <input type="text" placeholder='Nombre de la tarea...' onInput={handleInputName} value={task.name} />
+      <button onClick={handleAdd}>Agregar tarea</button>
     </form>
   )
 }

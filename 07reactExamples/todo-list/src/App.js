@@ -1,17 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-import { useState } from 'react';
-import { Form } from './components/Form';
-import { List } from './components/List';
+import { useState } from "react"
+import { Form } from "./components/Form";
+import { AllTasks } from "./components/AllTasks";
 
 function App() {
-  const [task, setTask] = useState("")
-  const [list, setList] = useState([])
-
+  const [task, setTask] = useState({id: null, name: "", completed: false});
+  const [tasks, setTasks] = useState([])
+  
   return (
     <>
-      <Form task={task} setTask={setTask} list={list} setList={setList} />
-      <List list={list} setList={setList} />
+      <Form task={task} setTask={setTask} tasks={tasks} setTasks={setTasks} />
+      <AllTasks tasks={tasks} />
     </>
   );
 }
