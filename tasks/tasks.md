@@ -94,7 +94,7 @@ You must use fonts, icons, colors, images.
 - Repo name: "bit08react"
 - Use Create React App
 - Use Bootstrap framework
-- Create your own list (any list, excep todo list)
+- Create your own list (any list, except todo list)
 - CRUD operations on your list
 - Create a link from your "bit07me" public page to this public project
 - Remember the basics (README file, UI, UX, test all)
