@@ -88,3 +88,13 @@ You must use fonts, icons, colors, images.
     - If the login is successfully show exercises page
 - Section or page of contact
 - Responsive
+---
+## Task 10
+### Requirements
+- Repo name: "bit08react"
+- Use Create React App
+- Use Bootstrap framework
+- Create your own list (any list, excep todo list)
+- CRUD operations on your list
+- Create a link from your "bit07me" public page to this public project
+- Remember the basics (README file, UI, UX, test all)
