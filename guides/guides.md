@@ -27,3 +27,6 @@
 - [Guide 25](guide25.md)
 - [Guide 26](guide26.md)
 - [Guide 27](guide27.md)
+- [Guide 28](guide28.md)
+- [Guide 29](guide29.md)
+- [Guide 30](guide30.md)
