@@ -1,7 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 
-export const Form = ({ task, setTask, tasks, setTasks, rename, setRename }) => {
+export const Form = ({
+  task,
+  setTask,
+  tasks,
+  setTasks,
+  rename,
+  setRename,
+  setMessage,
+}) => {
   const [exists, setExists] = useState(null);
 
   useEffect(() => {
@@ -10,12 +18,17 @@ export const Form = ({ task, setTask, tasks, setTasks, rename, setRename }) => {
   }, [rename]);
 
   const handleInputName = (e) => {
-    setTask({ ...task, id: uuidv4(), name: e.target.value });
+    setTask({ ...task, name: e.target.value });
   };
 
   const handleAdd = (e) => {
     e.preventDefault();
-    setTasks([...tasks, task]);
+    if (!task.name.trim())
+      return setMessage(
+        'Por favor primero ingresa un nombre de tarea y luego presiona el botón para agregar la lista.'
+      );
+    const taskId = { ...task, id: uuidv4() };
+    setTasks([...tasks, taskId]);
     setTask({ id: null, name: '', completed: false });
   };
 

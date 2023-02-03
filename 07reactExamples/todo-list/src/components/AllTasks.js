@@ -31,6 +31,7 @@ export const AllTasks = ({ tasks, setTasks, setRename }) => {
   const handleClick = (id) => {
     const arr = tasks.filter((item) => item.id !== id);
     setTasks(arr);
+    if (arr.length === 0) localStorage.removeItem('tasks');
   };
 
   let output = null;
