@@ -32,7 +32,7 @@
   {
     "id": "6",
     "name": "Donovan Stif",
-    "photo":"https://donhack77.github.io/bit07me/img/me.png",
+    "photo": "https://donhack77.github.io/bit07me/img/me.png",
     "site": "https://donhack77.github.io/bit07me/"
   },
   {
@@ -50,7 +50,7 @@
   {
     "id": "9",
     "name": "Luisa Díaz Sandoval",
-    "photo":"https://fernandasandotkd.github.io/bit07me/img/me.png",
+    "photo": "https://fernandasandotkd.github.io/bit07me/img/me.png",
     "site": "https://fernandasandotkd.github.io/bit07me/"
   },
   {
@@ -85,9 +85,9 @@
   },
   {
     "id": "15",
-      "name": "Vanessa Robles",
-      "photo": "https://vaneroblessilva.github.io/bit07me/img/me.jpg",
-      "site": "https://vaneroblessilva.github.io/bit07me/"
+    "name": "Vanessa Robles",
+    "photo": "https://vaneroblessilva.github.io/bit07me/img/me.png",
+    "site": "https://vaneroblessilva.github.io/bit07me/"
   },
   {
     "id": "16",
@@ -176,7 +176,7 @@
   {
     "id": "30",
     "name": "Nicolas Olmos",
-    "photo":"https://nicolasnos.github.io/bit07me/img/me.jpeg",
+    "photo": "https://nicolasnos.github.io/bit07me/img/me.jpeg",
     "site": "https://nicolasnos.github.io/bit07me/"
   },
   {
