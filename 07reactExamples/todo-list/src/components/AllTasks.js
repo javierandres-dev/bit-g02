@@ -52,7 +52,7 @@ export const AllTasks = ({ tasks, setTasks, setRename }) => {
           />
         </>
       ))
-    : (output = <h2>Sin tareas</h2>);
+    : (output = <h2 className='subtitle'>Sin tareas</h2>);
 
   return <>{output}</>;
 };

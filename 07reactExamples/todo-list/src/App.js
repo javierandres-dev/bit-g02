@@ -18,8 +18,8 @@ function App() {
 
   return (
     <>
-      <h1>Lista de tareas</h1>
-      <p>{message}</p>
+      <h1 className='title'>Lista de tareas</h1>
+      <p className='message'>{message}</p>
       <Form
         task={task}
         setTask={setTask}

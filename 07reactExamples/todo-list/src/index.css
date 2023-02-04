@@ -1,0 +1,92 @@
+:root {
+  --primary-color: #6e72db;
+  --soft-color: #ffff81;
+  --primary-font: sans-serif;
+  --secondary-font: serif;
+  --fs-title: 3rem;
+  --fs-subtitle: 2.5rem;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  height: 100%;
+  margin: 0;
+  padding: 2rem;
+  font-family: var(--primary-font);
+}
+input[type='checkbox'] {
+  display: none;
+}
+.title {
+  font-size: var(--fs-title);
+  text-align: center;
+  font-family: var(--secondary-font);
+}
+.subtitle {
+  font-size: var(--fs-subtitle);
+}
+.message {
+  font-size: 1.6rem;
+}
+.form {
+  margin: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.form input,
+.form button {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 2rem;
+}
+.form input {
+  border-bottom: 4px solid var(--primary-color);
+}
+.form input:focus {
+  outline: none;
+}
+.form button {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  background-color: var(--primary-color);
+  color: var(--soft-color);
+}
+.icon-size {
+  font-size: 2rem;
+}
+.icon {
+  color: var(--soft-color);
+}
+.list {
+  font-size: 1.6rem;
+}
+.list li > div {
+  display: flex;
+  justify-content: space-between;
+}
+.list li > div div:last-child {
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.green {
+  color: #a3e846;
+}
+.orange {
+  color: #f99417;
+}
+.red {
+  color: #ae2012;
+}

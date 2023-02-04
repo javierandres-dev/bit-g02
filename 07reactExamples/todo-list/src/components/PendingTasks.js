@@ -1,4 +1,9 @@
 import React from 'react';
+import {
+  BsFillCheckCircleFill,
+  BsFillPencilFill,
+  BsTrashFill,
+} from 'react-icons/bs';
 
 export const PendingTasks = ({
   pending,
@@ -8,17 +13,25 @@ export const PendingTasks = ({
 }) => {
   const elements = pending.map((task) => (
     <li key={task.id}>
-      {task.name}
-      <label>
-        Completada
-        <input
-          type='checkbox'
-          checked={task.completed}
-          onChange={() => handleChange(task.id)}
-        />
-      </label>
-      <span onClick={() => setRename(task.id)}>Renombrar</span>
-      <span onClick={() => handleClick(task.id)}>Eliminar</span>
+      <div>
+        <div>{task.name}</div>
+        <div>
+          <label>
+            <BsFillCheckCircleFill className='icon-size green' />
+            <input
+              type='checkbox'
+              checked={task.completed}
+              onChange={() => handleChange(task.id)}
+            />
+          </label>
+          <span onClick={() => setRename(task.id)}>
+            <BsFillPencilFill className='icon-size orange' />
+          </span>
+          <span onClick={() => handleClick(task.id)}>
+            <BsTrashFill className='icon-size red' />
+          </span>
+        </div>
+      </div>
     </li>
   ));
 
@@ -26,11 +39,11 @@ export const PendingTasks = ({
     <>
       {pending.length ? (
         <>
-          <h2>Tareas pendientes</h2>
-          <ol>{elements}</ol>
+          <h2 className='subtitle'>Tareas pendientes</h2>
+          <ol className='list'>{elements}</ol>
         </>
       ) : (
-        <h2>Sin tareas pendientes</h2>
+        <h2 className='subtitle'>Sin tareas pendientes</h2>
       )}
     </>
   );

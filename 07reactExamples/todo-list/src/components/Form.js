@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { v4 as uuidv4 } from 'uuid';
+import { BsPlusCircle } from 'react-icons/bs';
 
 export const Form = ({
   task,
@@ -25,7 +26,7 @@ export const Form = ({
     e.preventDefault();
     if (!task.name.trim())
       return setMessage(
-        'Por favor primero ingresa un nombre de tarea y luego presiona el botón para agregar la lista.'
+        '⚠️ Por favor primero ingresa un nombre de tarea y luego presiona el botón para agregar la lista. ⚠️'
       );
     const taskId = { ...task, id: uuidv4() };
     setTasks([...tasks, taskId]);
@@ -49,19 +50,22 @@ export const Form = ({
   return (
     <>
       {rename && exists ? (
-        <form>
+        <form className='form'>
           <input type='text' onInput={handleInputRename} value={exists.name} />
           <button onClick={handleClickRename}>Renombrar tarea</button>
         </form>
       ) : (
-        <form>
+        <form className='form'>
           <input
             type='text'
             placeholder='Nombre de la tarea...'
             onInput={handleInputName}
             value={task.name}
           />
-          <button onClick={handleAdd}>Agregar tarea</button>
+          <button onClick={handleAdd}>
+            Agregar tarea
+            <BsPlusCircle className='icon' />
+          </button>
         </form>
       )}
     </>
