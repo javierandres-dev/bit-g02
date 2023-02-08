@@ -15,17 +15,22 @@ import { CustomHook } from './components/CustomHook';
 import { Lifecycle } from './components/Lifecycle';
 import { EffectHook } from './components/EffectHook';
 import { ContextHook } from './components/ContextHook';
+import { RefHook } from './components/RefHook';
+import { MemosHook } from './components/MemosHook';
+import { ReducerHook } from './components/ReducerHook';
+import { CallbackHook } from './components/CallbackHook';
 
 function App() {
-  return (
-    <Fragment>
-      <ContextHook />
-    </Fragment>
-  );
+  return <Fragment></Fragment>;
 }
 
 export default App;
 /*
+<CallbackHook />
+<ReducerHook />
+<MemosHook />
+<RefHook />
+<ContextHook />
 <EffectHook />
 <Lifecycle />
 <CustomHook />
