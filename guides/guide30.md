@@ -6,9 +6,9 @@
 - Built-in Hooks
 - State Hook
 - Effect Hook
-- Memo Hook
-- Ref Hook
 - Context Hook
+- Ref Hook
+- Memo Hook
 - Reducer Hook
 - Callback Hook
 ## Resources

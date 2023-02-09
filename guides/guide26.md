@@ -4,7 +4,7 @@
 - Required tools
 - NodeJS
 - npm
-- Create a new SPA in React
+- Create a new SPA in React with CRA
 - React project structure
 - gitignore file
 - How SPA react works
