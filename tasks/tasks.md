@@ -98,3 +98,12 @@ You must use fonts, icons, colors, images.
 - CRUD operations on your list
 - Create a link from your "bit07me" public page to this public project
 - Remember the basics (README file, UI, UX, test all)
+---
+## Task 11
+### Requirements
+- Repo name: "bit09exercises"
+- Use Create React App or Vite
+- Use Bootstrap framework
+- Use Icons Bootstrap library
+- Create a link from your page"bit07me" public page to this public project
+- Remember the basics (README file, UI, UX, test all)
