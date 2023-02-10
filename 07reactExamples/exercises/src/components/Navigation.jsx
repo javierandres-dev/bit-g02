@@ -6,9 +6,13 @@ import { ExercisesPage } from './ExercisesPage';
 export const Navigation = () => {
   return (
     <BrowserRouter>
-      <nav>
-        <Link to='/'>Inicio</Link>
-        <Link to='/ejercicios'>Ejercicios</Link>
+      <nav className='py-4 text-center'>
+        <Link className='mx-2' to='/'>
+          Inicio
+        </Link>
+        <Link className='mx-2' to='/ejercicios'>
+          Ejercicios
+        </Link>
       </nav>
       <Routes>
         <Route path='/' element={<HomePage />} />
