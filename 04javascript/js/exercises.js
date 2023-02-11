@@ -1,4 +1,50 @@
 'use strict';
+// Programa que retorne TRUE o FALSE si un string dado es palindromo.
+const isPalindrome = (str) => {
+  const strWord = str.replaceAll(' ', '');
+  let word = strWord.split('');
+  word = word.reverse();
+  word = word.join('');
+  return strWord === word;
+};
+// console.log(isPalindrome('hi'));
+// console.log(isPalindrome('anita lava la tina'));
+// console.log(isPalindrome('yo voy'));
+// console.log(isPalindrome('reconocer'));
+// console.log(isPalindrome('luz azul'));
+// console.log(isPalindrome('hello'));
+
+// Programa que retorne el número de vocales que se encuentren en un string.
+const vowelCount = (str) => {
+  const vowels = ['a', 'e', 'i', 'o', 'u', 'á', 'é', 'í', 'ó', 'ú'];
+  let count = 0;
+  for (const c of str.toLowerCase()) if (vowels.includes(c)) count++;
+  return count;
+};
+//console.log(vowelCount('hi'));
+//console.log(vowelCount('impresionante'));
+//console.log(vowelCount('Fernanda'));
+//console.log(vowelCount('hola amigos, ¿cómo están?'));
+//console.log(vowelCount('anita lava la tina'));
+//console.log(vowelCount('Hola, estoy estudiando programación'));
+
+// Programa que retorne el resultado de convertir grados Fahrenheit a Celsius.
+const fahToCel = (fah) => (fah - 32) * (5 / 9);
+//console.log(fahToCel(13));
+//console.log(fahToCel(32));
+//console.log(fahToCel(59));
+
+// Programa que retorne el área de un triángulo.
+const triangleArea = (base, height) => (base * height) / 2;
+//console.log(triangleArea(8, 16));
+//console.log(triangleArea(59, 3));
+
+// Programa que retorne el área de un cuadrado.
+const squareAre = (side) => side * side;
+//console.log(squareAre(2));
+
+/* ========================================================================== */
+
 // Pedir nombre al usuario y saludarlo.
 function saludar() {
   const nombre = prompt('Escribe tu nombre');
