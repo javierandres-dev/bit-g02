@@ -1,4 +1,35 @@
 'use strict';
+/* Programa que retorne TRUE si un string dado es "s" o "si", que retorne FALSE si el string dado es "n" o "no", de otra manera retornar null. */
+const isYesOrNot = (str) => {
+  const word = str.toLowerCase().trim();
+  if (word === 's' || word === 'si') return true;
+  else if (word === 'n' || word === 'no') return false;
+  else return null;
+};
+console.log(isYesOrNot('s'));
+console.log(isYesOrNot('si'));
+console.log(isYesOrNot('    si    '));
+console.log(isYesOrNot('sI'));
+console.log(isYesOrNot('Si'));
+console.log(isYesOrNot('SI'));
+console.log(isYesOrNot('zi'));
+console.log(isYesOrNot('yes'));
+console.log(isYesOrNot('n'));
+console.log(isYesOrNot('no'));
+console.log(isYesOrNot('    no    '));
+console.log(isYesOrNot('nO'));
+console.log(isYesOrNot('No'));
+console.log(isYesOrNot('NO'));
+console.log(isYesOrNot('nel'));
+console.log(isYesOrNot('not'));
+/* Programa que retorne el indice de masa corporal dado un peso en kg y una
+estatura en cms. */
+const bmi = (w, h) => (w / (h * h)).toFixed(2);
+//console.log(bmi(72, 1.69));
+//console.log(bmi(52, 1.52));
+//console.log(bmi(70, 1.68));
+//console.log(bmi(56, 1.55));
+//console.log(bmi(60.5, 1.75));
 // Programa que retorne TRUE o FALSE si un string dado es palindromo.
 const isPalindrome = (str) => {
   const strWord = str.replaceAll(' ', '');
