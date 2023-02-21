@@ -1,35 +1,161 @@
 'use strict';
-/* Programa que retorne TRUE si un string dado es "s" o "si", que retorne FALSE si el string dado es "n" o "no", de otra manera retornar null. */
+/* Programa que genere un número aleatorio entre 1 y 10, lo compare hasta con 3
+ingresados, si el número aleatorio es igual a alguno ingresado retornar TRUE, de
+otra manera retornar FALSE. */
+// Programa que retorne un número random entre 1 y un número dado.
+/* Programa que retorne TRUE si dos objetos dados tienen las mismas propiedades
+y los mismos valores, en cualquier otro caso retornar FALSE. */
+const areEqualObjs = (obj1, obj2) =>
+  JSON.stringify(obj1) === JSON.stringify(obj2);
+// console.log(areEqualObjs({ a: 1, b: 2, c: 3 }, { a: 1, b: 2, c: 3 }));
+// console.log(areEqualObjs({ a: '1', b: 2, c: 3 }, { a: 1, b: 2, c: 3 }));
+// console.log(areEqualObjs({ a: 1, b: 2, c: 3 }, { a: 1, b: '2', c: 3 }));
+// console.log(areEqualObjs({ a: 1, b: 2, c: 3 }, { a: 1, b: 2, cc: 3 }));
+/* Programa que retorne TRUE si dos objetos dados tienen las mismas propiedades
+y los mismos valores, en cualquier otro caso retornar FALSE.  No usar métodos */
+const areEqualsObj = (obj1, obj2) => {
+  for (const p in obj1) {
+    if (obj1[p] === obj2[p]) continue;
+    else return false;
+  }
+  return true;
+};
+console.log(areEqualsObj({ a: 1, b: 2, c: 3 }, { a: 1, b: 2, c: 3 }));
+console.log(areEqualsObj({ a: 1, b: 2, c: 3 }, { b: 2, c: 3, a: 1 }));
+console.log(areEqualsObj({ a: '1', b: 2, c: 3 }, { a: 1, b: 2, c: 3 }));
+console.log(areEqualsObj({ a: 1, b: 2, c: 3 }, { a: 1, b: '2', c: 3 }));
+console.log(areEqualsObj({ a: 1, b: 2, c: 3 }, { a: 1, b: 2, cc: 3 }));
+/* Programa que dado un indice y un arreglo, retorne el elemento del arreglo
+según el indice, de otra forma retornar FALSE. */
+const getEl = (idx, arr) => {
+  if (arr[idx] !== undefined) return arr[idx];
+  return false;
+};
+// console.log(getEl(-1, ['a', 'e', 'i', 'o', 'u']));
+// console.log(getEl(0, ['a', 'e', 'i', 'o', 'u']));
+// console.log(getEl(1, ['a', 'e', 'i', 'o', 'u']));
+// console.log(getEl(2, ['a', 'e', 'i', 'o', 'u']));
+// console.log(getEl(3, ['a', 'e', 'i', 'o', 'u']));
+// console.log(getEl(4, ['a', 'e', 'i', 'o', 'u']));
+// console.log(getEl(5, ['a', 'e', 'i', 'o', 'u']));
+/* Programa que retorne el indice de un elemento dado en un arreglo dado, de
+otra forma retorna FALSE. */
+const getIdx = (el, arr) => {
+  const idx = arr.indexOf(el);
+  //const idx = arr.findIndex((item) => item === el);
+  if (idx !== -1) return idx;
+  return false;
+};
+// console.log(getIdx('a', ['a', 'e', 'i', 'o', 'u']));
+// console.log(getIdx('e', ['a', 'e', 'i', 'o', 'u']));
+// console.log(getIdx('i', ['a', 'e', 'i', 'o', 'u']));
+// console.log(getIdx('o', ['a', 'e', 'i', 'o', 'u']));
+// console.log(getIdx('u', ['a', 'e', 'i', 'o', 'u']));
+// console.log(getIdx('x', ['a', 'e', 'i', 'o', 'u']));
+// Programa que retorne en un solo arreglo los elementos de 2 arreglos dados.
+const getOneArr = (arr1, arr2) => arr1.concat(arr2);
+// console.log(getOneArr([1, 2, 3, 4], [5, 6, 7, 8]));
+// console.log(getOneArr(['a', 'e', 'i'], ['o', 'u']));
+// Programa que retorne un arreglo de números desde 1 hasta un número dado.
+const getArr = (n) => {
+  if (n < 1) return;
+  const arr = [];
+  let i = 1;
+  if (n > 0) {
+    while (i <= n) {
+      arr.push(i);
+      i++;
+    }
+  }
+  return arr;
+};
+// console.log(getArr(0));
+// console.log(getArr(1));
+// console.log(getArr(10));
+// console.log(getArr(100));
+/* Programa que imprima los números de 1 a 100, si el número es multiplo de 3 en
+lugar del número imprimir Fizz, si es multiplo de 5 en lugar del número imprimir
+Buzz, si es multiplo de 3 y de 5 imprimir FizzBuzz en lugar del número. */
+const fizzBuzzInline = () => {
+  let i = 1,
+    str = '';
+  do {
+    if (i % 5 === 0 && i % 3 === 0) str += ' FizzBuzz,';
+    else if (i % 5 === 0) str += ' Buzz,';
+    else if (i % 3 === 0) str += ' Fizz,';
+    else str += ` ${i},`;
+    i++;
+  } while (i <= 100);
+  str = str.slice(0, str.length - 1);
+  return `${str.trim()}.`;
+};
+//console.log(fizzBuzzInline());
+const fizzBuzz = () => {
+  let i = 1;
+  do {
+    if (i % 5 === 0 && i % 3 === 0) console.log('FizzBuzz');
+    else if (i % 5 === 0) console.log('Buzz');
+    else if (i % 3 === 0) console.log('Fizz');
+    else console.log(i);
+    i++;
+  } while (i <= 100);
+};
+//fizzBuzz();
+// Programa que retorne un string dado con la primer letra en mayúscula.
+const toCapitalize = (str) => {
+  const lowercase = str.toLowerCase().trim();
+  const start = lowercase.charAt().toUpperCase();
+  const end = lowercase.slice(1, lowercase.length);
+  const capitalize = start + end;
+  if (str === capitalize) return str;
+  else return capitalize;
+};
+// console.log(toCapitalize('Hi'));
+// console.log(toCapitalize('hi'));
+// console.log(toCapitalize('hello'));
+// console.log(toCapitalize('HELLO'));
+// console.log(toCapitalize('helLo'));
+// console.log(toCapitalize('hello') + ' ' + toCapitalize('world!'));
+/* Programa que retorne TRUE si un string dado es "s" o "si", que retorne FALSE
+si el string dado es "n" o "no", de otra manera retornar null. */
 const isYesOrNot = (str) => {
   const word = str.toLowerCase().trim();
   if (word === 's' || word === 'si') return true;
   else if (word === 'n' || word === 'no') return false;
   else return null;
 };
-console.log(isYesOrNot('s'));
-console.log(isYesOrNot('si'));
-console.log(isYesOrNot('    si    '));
-console.log(isYesOrNot('sI'));
-console.log(isYesOrNot('Si'));
-console.log(isYesOrNot('SI'));
-console.log(isYesOrNot('zi'));
-console.log(isYesOrNot('yes'));
-console.log(isYesOrNot('n'));
-console.log(isYesOrNot('no'));
-console.log(isYesOrNot('    no    '));
-console.log(isYesOrNot('nO'));
-console.log(isYesOrNot('No'));
-console.log(isYesOrNot('NO'));
-console.log(isYesOrNot('nel'));
-console.log(isYesOrNot('not'));
+// console.log(isYesOrNot('s'));
+// console.log(isYesOrNot('si'));
+// console.log(isYesOrNot('    si    '));
+// console.log(isYesOrNot('sI'));
+// console.log(isYesOrNot('Si'));
+// console.log(isYesOrNot('SI'));
+// console.log(isYesOrNot('zi'));
+// console.log(isYesOrNot('yes'));
+// console.log(isYesOrNot('n'));
+// console.log(isYesOrNot('no'));
+// console.log(isYesOrNot('    no    '));
+// console.log(isYesOrNot('nO'));
+// console.log(isYesOrNot('No'));
+// console.log(isYesOrNot('NO'));
+// console.log(isYesOrNot('nel'));
+// console.log(isYesOrNot('not'));
 /* Programa que retorne el indice de masa corporal dado un peso en kg y una
 estatura en cms. */
-const bmi = (w, h) => (w / (h * h)).toFixed(2);
-//console.log(bmi(72, 1.69));
-//console.log(bmi(52, 1.52));
-//console.log(bmi(70, 1.68));
-//console.log(bmi(56, 1.55));
-//console.log(bmi(60.5, 1.75));
+const bmi = (w, h) => (w / ((h / 100) * (h / 100))).toFixed(2);
+// console.log(bmi(72, 169));
+// console.log(bmi(52, 152));
+// console.log(bmi(70, 168));
+// console.log(bmi(56, 155));
+// console.log(bmi(60.5, 175));
+/* Programa que retorne el indice de masa corporal dado un peso en kg y una
+estatura en m. */
+const bmiHm = (w, h) => (w / (h * h)).toFixed(2);
+// console.log(bmiHm(72, 1.69));
+// console.log(bmiHm(52, 1.52));
+// console.log(bmiHm(70, 1.68));
+// console.log(bmiHm(56, 1.55));
+// console.log(bmiHm(60.5, 1.75));
 // Programa que retorne TRUE o FALSE si un string dado es palindromo.
 const isPalindrome = (str) => {
   const strWord = str.replaceAll(' ', '');
