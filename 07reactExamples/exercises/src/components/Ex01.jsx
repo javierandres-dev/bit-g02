@@ -20,7 +20,7 @@ export const Ex01 = () => {
       <Button variant='outline-dark' onClick={() => setContador(contador - 1)}>
         <i className='bi bi-dash-circle'></i>
       </Button>
-      <Button variant='outline-dark' onClick={() => setContador(0)}>
+      <Button variant='outline-dark mx-2' onClick={() => setContador(0)}>
         <i className='bi bi-circle'></i>
       </Button>
       <Button variant='outline-dark' onClick={() => setContador(contador + 1)}>
