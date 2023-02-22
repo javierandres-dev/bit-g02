@@ -12,7 +12,7 @@ export const ExercisesPage = () => {
       {!exercise ? (
         <ol>
           <li onClick={() => setExercise(<Ex01 />)}>Contador</li>
-          <li onClick={() => setExercise(<Ex02 />)}>Ejercicio 2</li>
+          <li onClick={() => setExercise(<Ex02 />)}>Patos</li>
         </ol>
       ) : (
         <div className='text-center'>
