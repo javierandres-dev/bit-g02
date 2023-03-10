@@ -16,6 +16,8 @@ function App() {
     }
   }, []);
 
+  console.log(process.env.REACT_APP_SECRETO);
+
   return (
     <>
       <h1 className='title'>Lista de tareas</h1>
